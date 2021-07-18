@@ -1,0 +1,104 @@
+            .menu {
+                margin: bottom 50px;
+            }
+            
+            .header {
+                margin-bottom: 20px;
+            }
+            
+            .description {
+                margin-bottom: 20px;
+            }
+            
+            .logo {
+                width: 4%;
+                margin-right: 500px;
+            }
+            
+            .menuItem {
+                text-decoration: none;
+                color: inherit;
+                margin-left: 30px;
+                font-size: 16px;
+            }
+            
+            .menuItem:hover {
+                border-bottom-style: solid;
+                border-bottom-width: 3px;
+                border-bottom-color: grey;
+            }
+            
+            .left {
+                display: inline-block;
+                width: 40%;
+            }
+            
+            .right {
+                display: inline-block;
+                width: 40%;
+            }
+            
+            .container {}
+            
+            .footer {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 150px;
+                padding: 50px;
+            }
+            
+            .appstoreImage {
+                width: 50%;
+            }
+            
+            .rightImage {
+                width: 130%;
+            }
+            
+            .blockElement {
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: none;
+                background-color: lightgray;
+                height: 35px;
+                width: 250px;
+                border-radius: 15px;
+                outline: none;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 16px;
+            }
+            
+            .myanmar {
+                background-color: #0084ff;
+                border-radius: 24px;
+                border: none;
+                color: white;
+                padding: 2px 20px 0px;
+                font-size: 19px;
+                height: 40px;
+                margin: 20px 0 12px;
+                width: 100px;
+            }
+            
+            .inputSpan {
+                margin-bottom: 20px;
+            }
+            
+            .password {
+                margin-bottom: 20px;
+            }
+            
+            .signInButton {
+                margin-top: 10px;
+            }
+            
+            .master {
+                margin-left: 180px;
+                margin-right: 180px;
+            }
+            
+            .inner {
+                width: 50%;
+            }
