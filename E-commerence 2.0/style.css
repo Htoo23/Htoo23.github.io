@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: linear-gradient(45deg, black, gray);
+}
+
+.navbar {
+    background: lightgray;
+    padding: 1em 10rem;
+    z-index: 1000;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: black;
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.col-1 img {
+    width: 100%;
+}
+
+.col-2 {
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.col-2 h1 {
+    font-size: 62px;
+    font-weight: 600;
+}
+
+span {
+    color: yellow;
+}
+
+.col-2 p {
+    margin: 10px 0 50px;
+    max-width: 580px;
+}
+
+.col-2 .btn {
+    margin-left: 0;
+    margin-right: 30px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.col-2 .btn:hover {
+    color: yellow;
+}
+
+.elements {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: move 2.5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-15px, 0);
+    }
+    50% {
+        transform: translate(0px, -15px);
+    }
+    100% {
+        transform: translate(-15px, 0);
+    }
+}
+
+.about-event {
+    padding-top: 160px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.about-event .left {
+    padding: 120px 0;
+}
+
+.about-event .left .sub-heading {
+    font-size: 72px;
+    margin: auto
+}
