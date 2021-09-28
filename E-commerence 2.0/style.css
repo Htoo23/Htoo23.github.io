@@ -102,16 +102,41 @@ span {
     }
 }
 
-.about-event {
-    padding-top: 160px;
-    font-family: 'Open Sans Condensed', sans-serif;
+.container1 {
+    width: auto;
+    height: 500px;
+    margin: 70px auto;
+    border-radius: 15px;
+    display: flex;
 }
 
-.about-event .left {
-    padding: 120px 0;
+h1 {
+    margin-left: 20px;
 }
 
-.about-event .left .sub-heading {
-    font-size: 72px;
-    margin: auto
+.container1 img {
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    margin: 20px 0 0 130px;
+}
+
+.icons img {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    padding: 5px;
+}
+
+.container1 img:hover {
+    padding: 5px;
 }
